@@ -1,4 +1,5 @@
 from Main import text_do_mors, mors_do_text, main
+"""UnitTesty"""
 
 pole = "priklad"
 
