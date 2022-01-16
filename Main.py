@@ -45,7 +45,7 @@ for key, value in TEXT_DO_MORS.items():
 
 
 def text_do_mors(zprava):
-    """Překlad texu do morseovky"""
+    """Překlad texu do morseovky."""
     mors = []
     for char in zprava:
         if char in TEXT_DO_MORS:
@@ -54,7 +54,7 @@ def text_do_mors(zprava):
 
 
 def mors_do_text(zprava):
-    """Překlad morseovky na text"""
+    """Překlad morseovky na text."""
     zprava = zprava.split(" ")
     text = []
     for code in zprava:
@@ -64,7 +64,7 @@ def mors_do_text(zprava):
 
 
 def main():
-    """Výběrové menu"""
+    """Výběrové menu."""
     while True:
         response = input("Morseovku na text(1) Text na morseovku(2)?").upper()
         if response == "1" or response == "2":
